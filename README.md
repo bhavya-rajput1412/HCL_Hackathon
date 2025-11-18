@@ -1,8 +1,8 @@
 # HCL_Hackathon
-📘 Customer Loyalty Analytics & Segmentation System
+ Customer Loyalty Analytics & Segmentation System
 A complete data ingestion, quality validation, loyalty points, RFM, segmentation & visualization pipeline built using Python, Pandas, and SQLite
 
-📌 Table of Contents
+ Table of Contents
 Project Summary
 
 
@@ -40,18 +40,18 @@ Author
 
 
 
-📌 Project Summary
+ Project Summary
 This project implements a real-world retail loyalty data pipeline that reads transactional customer data from a CSV file, validates it, stores it in a database, awards loyalty points, calculates RFM metrics, segments customers, identifies unknown customers, and visualizes insights to support marketing and retention strategies.
 
-🎯 Objectives
-✔ Ensure clean, validated, structured data
- ✔ Reward customers using loyalty rules
- ✔ Measure customer value mathematically
- ✔ Identify churn-risk customers
- ✔ Separate unknown vs known customers
- ✔ Provide business-ready insights via analytics
+ Objectives
+ Ensure clean, validated, structured data
+  Reward customers using loyalty rules
+  Measure customer value mathematically
+  Identify churn-risk customers
+  Separate unknown vs known customers
+  Provide business-ready insights via analytics
 
-🚀 Key Features
+ Key Features
 Feature
 Description
 Data ingestion
@@ -74,7 +74,7 @@ Analytics & charts
 Business insights & visualization
 
 
-🛠 Tech Stack
+ Tech Stack
 Component
 Technology
 Language
@@ -87,7 +87,7 @@ Notebook
 Jupyter Lab
 
 
-🔄 Data Flow
+ Data Flow
 Raw CSV
    │
    ▼
@@ -125,7 +125,7 @@ Raw CSV
  Visualizations & Insights
 
 
-🔢 Important Formulas
+ Important Formulas
 Metric
 Formula
 Meaning
@@ -151,8 +151,8 @@ High-Spender Cutoff
 90th Percentile (Monetary)
 Top 10%
 
-
-🗄 Database Tables Created
+ 
+Database Tables Created
 Table Name
 Description
 transactions
@@ -171,7 +171,7 @@ new_customer
 Potential loyalty prospects
 
 
-🧩 Segmentation Logic
+ Segmentation Logic
 Segment
 Condition
 High-Spender
@@ -182,7 +182,7 @@ Regular
 Everyone else
 
 
-📊 Visualization Output
+ Visualization Output
 Created charts include:
 Donut chart (segment distribution)
 
